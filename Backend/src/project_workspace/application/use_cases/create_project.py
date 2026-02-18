@@ -1,7 +1,7 @@
 from uuid import uuid4
 from datetime import datetime
-from project_workspace.domain.entities.project import Project
-from project_workspace.domain.ports.project_repository_port import ProjectRepositoryPort
+from src.project_workspace.domain.entities.project import Project
+from src.project_workspace.domain.ports.project_repository_port import ProjectRepositoryPort
 
 class CreateProjectUseCase:
 

@@ -1,4 +1,4 @@
-from project_workspace.domain.ports.project_repository_port import ProjectRepositoryPort
+from src.project_workspace.domain.ports.project_repository_port import ProjectRepositoryPort
 
 class ListProjectsUseCase:
 
