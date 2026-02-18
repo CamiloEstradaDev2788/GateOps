@@ -3,7 +3,7 @@ from datetime import datetime
 from uuid import UUID
 
 @dataclass
-class Proyect:
+class Project:
     id: UUID
     name: str
     repository_url: str
