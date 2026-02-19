@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 from typing import List
 from uuid import UUID
-from project_workspace.domain.entities.project import Project
+from src.project_workspace.domain.entities.project import Project
 
 
 class ProjectRepositoryPort(ABC):

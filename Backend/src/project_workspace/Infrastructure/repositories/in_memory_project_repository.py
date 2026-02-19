@@ -5,7 +5,7 @@ from src.project_workspace.domain.ports.project_repository_port import ProjectRe
 
 class InMemoryProjectRepository(ProjectRepositoryPort):
 
-    def __inti__(self):
+    def __init__(self):
         self._projects: List[Project] = []
 
     def save(self, project: Project) -> None:
